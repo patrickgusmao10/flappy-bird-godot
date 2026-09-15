@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://bjarw0fj3p3f1"]
+
+[ext_resource type="Script" uid="uid://cg57ogbt1nufd" path="res://Scripts/menu.gd" id="1_eheat"]
+[ext_resource type="Texture2D" uid="uid://cbjk7mmbgrg4f" path="res://Assets/Imagens/background-night.png" id="1_u1n12"]
+[ext_resource type="PackedScene" uid="uid://cm6i1xo4408i0" path="res://Cenas/cano.tscn" id="2_fapvr"]
+[ext_resource type="Texture2D" uid="uid://bm3ltpoq8tf8r" path="res://Assets/Imagens/base.png" id="2_vpgfy"]
+[ext_resource type="PackedScene" uid="uid://bgh1jnnls8lkh" path="res://Cenas/bird.tscn" id="5_fapvr"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_eheat"]
+font_size = 32
+shadow_color = Color(0, 0, 0, 0.85882354)
+
+[node name="Menu" type="Node2D" unique_id=101977305]
+script = ExtResource("1_eheat")
+cano_cena = ExtResource("2_fapvr")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=237838349]
+position = Vector2(144, 256)
+texture = ExtResource("1_u1n12")
+
+[node name="Chão" type="Sprite2D" parent="." unique_id=154787842]
+position = Vector2(144, 485)
+scale = Vector2(0.8541667, 1)
+texture = ExtResource("2_vpgfy")
+
+[node name="SpawnCano" type="Timer" parent="." unique_id=1947164245]
+wait_time = 2.0
+
+[node name="Pontuacao" type="Label" parent="." unique_id=1765090144]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 123.0
+offset_top = 25.0
+offset_right = 163.0
+offset_bottom = 48.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+label_settings = SubResource("LabelSettings_eheat")
+
+[node name="Bird" parent="." unique_id=560612818 instance=ExtResource("5_fapvr")]
+position = Vector2(26, 278)
+
+[connection signal="timeout" from="SpawnCano" to="." method="_on_spawn_cano_timeout"]
