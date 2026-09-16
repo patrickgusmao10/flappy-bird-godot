@@ -12,7 +12,17 @@ Throughout the development process, I practiced concepts such as physics, collis
 
 The project is being developed incrementally, with each version representing a new stage of my learning process.
 
-Both versions are preserved so it is possible to play them and compare how the project evolved over time.
+Both versions are preserved, making it possible to play them and compare how the project evolved over time.
+
+### 🚀 Version 2 — Enhanced Edition
+
+Version 2 represents the current and enhanced version of the project, expanding the original implementation with new gameplay systems, animations, sound effects, interface improvements and new visual assets.
+
+The goal of this version was to take the mechanics learned during Version 1 and continue evolving the game into a more complete and polished experience.
+
+### ▶️ [PLAY VERSION 2](https://patrickgusmao10.github.io/flappy-bird-godot/v2/)
+
+---
 
 ### 🐣 Version 1 — Original Learning Build
 
@@ -20,17 +30,7 @@ Version 1 represents the original implementation of the project and the foundati
 
 It includes the essential Flappy Bird gameplay mechanics such as bird movement, gravity, jumping, obstacles, collision detection and scoring.
 
-### ▶️ [PLAY VERSION 1](https://patrickgusmao10.github.io/flappy-bird-godot/)
-
----
-
-### 🚀 Version 2 — Enhanced Edition
-
-Version 2 represents the next stage of the project and expands the original implementation with new gameplay systems, animations, sound effects, interface improvements and new visual assets.
-
-The goal of this version was to take the mechanics learned during Version 1 and continue evolving the game into a more complete and polished experience.
-
-> 🌐 **The playable Web version of Version 2 will be available here after deployment.**
+### ▶️ [PLAY VERSION 1](https://patrickgusmao10.github.io/flappy-bird-godot/v1/)
 
 ---
 
@@ -230,9 +230,9 @@ git clone https://github.com/patrickgusmao10/flappy-bird-godot.git
 
 You can also play the deployed versions directly from your browser.
 
-### 🐣 [Play Version 1](https://patrickgusmao10.github.io/flappy-bird-godot/)
+### 🚀 [Play Version 2](https://patrickgusmao10.github.io/flappy-bird-godot/v2/)
 
-### 🚀 Version 2 — Web deployment coming next
+### 🐣 [Play Version 1](https://patrickgusmao10.github.io/flappy-bird-godot/v1/)
 
 ---
 
