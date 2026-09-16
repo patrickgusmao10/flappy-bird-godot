@@ -1,291 +1,290 @@
 # 🐦 Flappy Bird — Godot
 
-A Flappy Bird clone recreated **\*\*from scratch in Godot Engine\*\*** as a hands-on learning project focused on understanding the fundamentals of 2D game development.
+A Flappy Bird clone recreated **from scratch in Godot Engine** as a hands-on learning project focused on understanding the fundamentals of 2D game development.
 
 The game was developed manually while following a video tutorial as a learning reference, with the goal of understanding and implementing each part of the project rather than simply using a finished project.
 
 Throughout the development process, I practiced concepts such as physics, collision detection, scene management, GDScript, object spawning, scoring systems, version control and Web deployment.
 
-\<p *align*="center">
+---
 
-  \<strong>🎮 Play the game directly in your browser:\</strong>
+## 🎮 Play the Game
 
-\</p>
+The project is being developed incrementally, with each version representing a new stage of my learning process.
 
-\<p *align*="center">
+Both versions are preserved so it is possible to play them and compare how the project evolved over time.
 
-  \<a href="[https://patrickgusmao10.github.io/flappy-bird-godot/](https://patrickgusmao10.github.io/flappy-bird-godot/)">
+### 🐣 Version 1 — Original Learning Build
 
-    \<strong>▶️ PLAY NOW\</strong>
+Version 1 represents the original implementation of the project and the foundation used to learn the basic mechanics of a 2D game in Godot.
 
-  \</a>
+It includes the essential Flappy Bird gameplay mechanics such as bird movement, gravity, jumping, obstacles, collision detection and scoring.
 
-\</p>
+### ▶️ [PLAY VERSION 1](https://patrickgusmao10.github.io/flappy-bird-godot/)
 
-**---**
+---
 
-**## 🎮 About the Game**
+### 🚀 Version 2 — Enhanced Edition
+
+Version 2 represents the next stage of the project and expands the original implementation with new gameplay systems, animations, sound effects, interface improvements and new visual assets.
+
+The goal of this version was to take the mechanics learned during Version 1 and continue evolving the game into a more complete and polished experience.
+
+> 🌐 **The playable Web version of Version 2 will be available here after deployment.**
+
+---
+
+## 🎮 About the Game
 
 The objective is simple: control the bird, avoid the pipes and try to achieve the highest score possible.
 
 Despite being a small project, recreating Flappy Bird is a great exercise for learning some of the core concepts behind 2D games.
 
-**### Features**
+### Features
 
-\- 🐦 Bird movement and gravity
+- 🐦 Bird movement and gravity
+- 🪽 Jump / flap mechanics
+- 🚧 Procedurally spawned pipes
+- 💥 Collision detection
+- 🏆 Score system
+- 🔄 Game over and restart mechanics
+- 🔊 Sound effects
+- 🌐 Playable Web version
+- 🎮 Scene-based architecture using Godot
 
-\- 🪽 Jump / flap mechanics
+---
 
-\- 🚧 Procedurally spawned pipes
+## 🚀 Version 2 Improvements
 
-\- 💥 Collision detection
+Version 2 was created as an evolution of the original project rather than as a separate game.
 
-\- 🏆 Score system
+The objective was to keep the core gameplay developed in Version 1 while introducing additional systems, feedback and visual improvements.
 
-\- 🔄 Game over and restart mechanics
+### 🔊 Sound Effects
 
-\- 🔊 Sound effects
+The game now provides audio feedback for important gameplay events, making player actions and game events easier to recognize.
 
-\- 🌐 Playable Web version
+Sound effects were added for:
 
-\- 🎮 Scene-based architecture using Godot
+- 🪽 Bird movement / flap
+- 🏆 Successfully passing obstacles
+- 💥 Collisions
+- ☠️ Player death
+- 🎮 Other gameplay interactions
 
-**---**
+### 🐦 Bird Animations
 
-**## 🕹️ Game Versions**
+The bird received new assets and animation states, creating a more dynamic character during gameplay.
 
-This repository documents the evolution of the project through different playable versions. Version 1 represents the first complete implementation of the game, while Version 2 expands the original project with new gameplay systems, animations, sound effects, visual improvements and additional game states.
+The flight animation provides visual feedback while the bird is moving through the level.
 
-Both versions are preserved so the evolution of the project can be directly compared.
+### 🏆 High Score System
 
-**### 🐣 Version 1 — Original Version**
+In addition to the regular score system, Version 2 introduces a **High Score** system.
 
-Version 1 represents the first complete and functional version of the project. It focuses on the fundamental mechanics required to recreate the basic Flappy Bird gameplay experience.
+This allows the game to keep track of the player's best performance and creates an additional objective beyond simply completing another attempt.
 
-The player can control the bird, navigate through obstacles, accumulate points and restart the game after a collision.
+### ▶️ Start Screen
 
-This version remains available as an important milestone in the development process and as a reference point for comparing the improvements introduced later.
+Version 2 introduces a dedicated start screen before gameplay begins.
 
-**### 🎮 Play Version 1**
+This creates a clearer separation between starting the game and the actual gameplay loop.
 
-👉 [Play Flappy Bird — Version 1](https://patrickgusmao10.github.io/flappy-bird-godot/)
+### 💀 Game Over Screen
 
-**---**
+A dedicated Game Over interface was added to provide better feedback when the player loses.
 
-**### 🐦 Version 2 — Enhanced Version**
+The player can clearly see that the current attempt has ended before starting another run.
 
-Version 2 represents a major evolution of the original project.
+### ⏸️ Game and Environment Stop
 
-While preserving the core gameplay mechanics developed in Version 1, this version introduces additional systems, animations, audio feedback, new visual assets and a more complete game flow.
+When the player loses, the game reacts visually instead of allowing the environment to continue normally.
 
-The objective of Version 2 was not simply to replace the original project, but to continue developing it while applying new concepts learned with Godot.
+Gameplay elements and the scenario are stopped appropriately, making the transition to the Game Over state clearer.
 
-**### ✨ What's New in Version 2**
+### 🌆 New Visual Assets
 
-\- 🪽 Bird flight animations
+Version 2 also introduces new visual assets for the game.
 
-\- 🔊 Expanded sound effects
+These include improvements and replacements related to:
 
-\- 💀 Sound effect when the bird dies
+- 🐦 Bird
+- 🌆 Background
+- 🌱 Ground
+- 🚧 Obstacles
+- 🎮 Interface elements
+- 💀 Game Over elements
 
-\- 🎯 Sound feedback when successfully passing obstacles
+These changes help visually distinguish Version 2 from the original implementation.
 
-\- 🏆 High-score system
+---
 
-\- ▶️ Dedicated start game screen
+## 🆚 Version 1 vs Version 2
 
-\- 💀 Dedicated game over screen
-
-\- ⏸️ Game and environment freeze behavior after game over
-
-\- 🌄 New background and environment assets
-
-\- 🐦 New bird assets
-
-\- 🎞️ Additional animations and visual feedback
-
-\- 🎮 Improved game flow
-
-\- ✨ More polished gameplay presentation
-
-**### 🎮 Play Version 2**
-
-👉 [Play Flappy Bird — Version 2](LINK_VERSION_2)
-
-**---**
-
-**## 🔄 Version 1 vs Version 2**
-
-Keeping both versions available makes it possible to directly see how the project evolved during the learning and development process.
+Keeping both versions available is an important part of this repository because it demonstrates how the project evolved during the learning process.
 
 | Feature | Version 1 | Version 2 |
-| --- | :---: | :---: |
-| Core Flappy Bird gameplay | ✅ | ✅ |
+|---|:---:|:---:|
+| Basic Flappy Bird gameplay | ✅ | ✅ |
 | Bird movement and gravity | ✅ | ✅ |
 | Jump / flap mechanics | ✅ | ✅ |
 | Obstacles | ✅ | ✅ |
 | Collision detection | ✅ | ✅ |
 | Score system | ✅ | ✅ |
-| Web version | ✅ | ✅ |
 | Bird flight animations | ❌ | ✅ |
-| Expanded sound effects | ❌ | ✅ |
-| Death sound | ❌ | ✅ |
-| Obstacle score sound | ❌ | ✅ |
-| Start game screen | ❌ | ✅ |
-| Game over screen | ❌ | ✅ |
-| High-score system | ❌ | ✅ |
-| Game/environment freeze behavior | ❌ | ✅ |
+| Gameplay sound effects | ❌ | ✅ |
+| Death / collision sounds | ❌ | ✅ |
+| Obstacle scoring sounds | ❌ | ✅ |
+| High Score system | ❌ | ✅ |
+| Dedicated start screen | ❌ | ✅ |
+| Dedicated Game Over screen | ❌ | ✅ |
+| Game/environment stopping behavior | ❌ | ✅ |
 | New background assets | ❌ | ✅ |
 | New bird assets | ❌ | ✅ |
 | Additional visual feedback | ❌ | ✅ |
 
 Version 1 represents the foundation of the project, while Version 2 demonstrates how the same game can evolve by adding new systems, improving player feedback and creating a more complete gameplay experience.
 
-**---**
+---
 
-**## 🛠️ Technologies**
+## 🛠️ Technologies
 
-\- **\*\*Godot Engine 4\*\***
+- **Godot Engine 4**
+- **GDScript**
+- **Godot Web Export**
+- **Git & GitHub**
+- **GitHub Pages**
 
-\- **\*\*GDScript\*\***
+---
 
-\- **\*\*Godot Web Export\*\***
+## 📁 Project Structure
 
-\- **\*\*Git & GitHub\*\***
+The project structure evolved between Version 1 and Version 2.
 
-\- **\*\*GitHub Pages\*\***
+The current version follows a structure similar to:
 
-**---**
-
-**## 📁 Project Structure**
-
-\`\`\`text
-
+```text
 flappy-bird-godot/
-
 │
-
-├── Assets/        # Sprites, images, sounds and other game assets
-
-├── Cenas/         # Godot scenes
-
-├── Scripts/       # Game scripts
-
-├── Shaders/       # Visual shaders
-
-├── docs/          # Web build published with GitHub Pages
-
-├── project.godot  # Godot project configuration
-
+├── assets/
+│   ├── audio/        # Sound effects
+│   ├── fonts/        # Game fonts
+│   └── textures/     # Sprites and visual assets
+│
+├── scenes/           # Godot scenes
+│
+├── scripts/          # Game logic written in GDScript
+│
+├── project.godot     # Godot project configuration
+├── export_presets.cfg
 └── README.md
+```
 
-\`\`\`
+Earlier versions of the project used a different folder organization. The repository history preserves this evolution through Git.
 
-**---**
+---
 
-**## 🧠 What I Learned**
+## 🧠 What I Learned
 
 This project was created mainly for learning purposes and helped me practice:
 
-\- Working with scenes and nodes in Godot
+- Working with scenes and nodes in Godot
+- Programming gameplay logic with GDScript
+- Character movement and gravity
+- Collision detection
+- Instantiating objects dynamically
+- Building a scoring system
+- Creating a High Score system
+- Working with sound effects
+- Creating and controlling animations
+- Managing different game states
+- Creating start and Game Over interfaces
+- Organizing a game project
+- Refactoring the structure of an existing project
+- Using Git for version control
+- Maintaining multiple stages of a project through Git history
+- Exporting a Godot project for the Web
+- Deploying a playable game using GitHub Pages
 
-\- Programming gameplay logic with GDScript
+Developing Version 2 was particularly useful because it allowed me to experience something beyond simply creating a project from the beginning: **evolving an existing game while preserving its previous development history.**
 
-\- Character movement and gravity
+---
 
-\- Collision detection
-
-\- Instantiating objects dynamically
-
-\- Building a scoring system
-
-\- Organizing a game project
-
-\- Using Git for version control
-
-\- Exporting a Godot project for the Web
-
-\- Deploying a playable game using GitHub Pages
-
-**---**
-
-**## 🚀 Running the Project Locally**
+## 🚀 Running the Project Locally
 
 To open the project locally:
 
-1\. Install **\*\*Godot Engine 4\*\***
+1. Install **Godot Engine 4**
 
-2\. Clone this repository:
+2. Clone this repository:
 
-\`\`\`bash
+```bash
+git clone https://github.com/patrickgusmao10/flappy-bird-godot.git
+```
 
-git clone [https://github.com/patrickgusmao10/flappy-bird-godot.git](https://github.com/patrickgusmao10/flappy-bird-godot.git)
+3. Open Godot.
 
-\`\`\`
+4. Import the `project.godot` file.
 
-3\. Open Godot
+5. Run the project.
 
-4\. Import the \`project.godot\` file
+You can also play the deployed versions directly from your browser.
 
-5\. Run the project
+### 🐣 [Play Version 1](https://patrickgusmao10.github.io/flappy-bird-godot/)
 
-Or simply:
+### 🚀 Version 2 — Web deployment coming next
 
-**### 👉 [Play the Web version]\(**[https://patrickgusmao10.github.io/flappy-bird-godot/](https://patrickgusmao10.github.io/flappy-bird-godot/)**)**
+---
 
-**---**
+## 🎥 Learning Reference
 
-**## 🎥 Learning Reference**
-
-This project was **\*\*recreated manually from scratch in Godot\*\***, using a video tutorial as a learning reference and guide throughout the development process.
+This project was **recreated manually from scratch in Godot**, using a video tutorial as a learning reference and guide throughout the development process.
 
 Rather than using a pre-built project, the game was recreated step by step while practicing and understanding the implementation of scenes, nodes, physics, collisions, spawning mechanics, scoring and game logic.
 
 The tutorial used as reference was:
 
-▶️ **\*\*Tutorial used as reference:\*\***  
+▶️ **Tutorial used as reference:**  
+[Flappy Bird Game in Godot — YouTube Tutorial](https://www.youtube.com/watch?v=8mQ_kF8v5DA)
 
-[Flappy Bird Game in Godot — YouTube Tutorial]\([https://www.youtube.com/watch?v=8mQ\_kF8v5DA](https://www.youtube.com/watch?v=8mQ_kF8v5DA))
-
-The purpose of following the tutorial was to gain hands-on experience with **\*\*Godot Engine and GDScript\*\***, understanding how the different components of a simple 2D game work together.
+The purpose of following the tutorial was to gain hands-on experience with **Godot Engine and GDScript**, understanding how the different components of a simple 2D game work together.
 
 The project was also further configured for version control with Git and GitHub, exported for the Web, and deployed using GitHub Pages.
 
-**---**
+After completing the initial implementation, the project continued evolving through additional development, resulting in Version 2 and its new gameplay, audio, animation and interface improvements.
 
-**## 📚 Project Purpose**
+---
 
-This project was developed for **\*\*educational purposes\*\*** while learning Godot and the fundamentals of game development.
+## 📚 Project Purpose
 
-It is inspired by the gameplay mechanics of **\*\*Flappy Bird\*\*** and was created as a practical exercise rather than as an original commercial game.
+This project was developed for **educational purposes** while learning Godot and the fundamentals of game development.
 
-**---**
+It is inspired by the gameplay mechanics of **Flappy Bird** and was created as a practical exercise rather than as an original commercial game.
 
-**## 🔮 Future Improvements**
+The repository also serves as a record of my learning process.
+
+Instead of replacing the first implementation without preserving its history, the project is being developed incrementally so that the evolution between versions can be observed through the Git history and playable builds.
+
+---
+
+## 🔮 Future Improvements
 
 Some ideas for future versions:
 
-\- 🎨 Improved UI and menus
+- 🎨 Improved UI and menus
+- 🥇 Additional improvements to the High Score system
+- 🎚️ Difficulty progression
+- 📱 Better mobile support
+- ✨ Additional visual effects
+- 🎵 Improved audio
+- 🐦 Different bird skins
+- 🌆 Additional environments
 
-\- 🥇 High-score system
+---
 
-\- 🎚️ Difficulty progression
+## 👨‍💻 Author
 
-\- 📱 Better mobile support
-
-\- ✨ Additional visual effects
-
-\- 🎵 Improved audio
-
-\- 🐦 Different bird skins
-
-\- 🌆 Additional environments
-
-**---**
-
-**## 👨‍💻 Author**
-
-**\*\*Patrick Gonçalves Gusmão\*\***
+**Patrick Gonçalves Gusmão**
 
 Software Engineering student exploring software development, game development and new technologies.
 
